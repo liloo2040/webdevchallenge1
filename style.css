@@ -1,6 +1,6 @@
 body{
     
-    background-image: url("images/background_header.jpg");
+    background-image: url("img/background_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -22,15 +22,33 @@ footer{
 ul{
     display: inline-block;
     margin: auto;
+    margin-left: 100px;
 }
 
 li{
     display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 200px;
 }
 .number{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color:  #FFFFFF;
+}
+
+.location{
+    width: 50px;
+    float: left;
+}
+.experience{
+    width: 50px;
+    float: left;
+}
+.customer {
+    width: 50px;
+    float: left;
+}
+
+p{
+    text-align: left;
 }
