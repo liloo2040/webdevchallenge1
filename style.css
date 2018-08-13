@@ -20,13 +20,15 @@ footer{
     color: #a7a7b9;
 }
 ul{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     margin-left: 100px;
 }
 
 li{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin-right: 200px;
 }
