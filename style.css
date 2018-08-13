@@ -21,7 +21,7 @@ footer{
 }
 ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     margin-left: 100px;
 }
@@ -30,7 +30,9 @@ li{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    justify-content: space-between;
     margin-right: 200px;
+    clear: both;
 }
 .number{
     font-size: 24px;
@@ -40,6 +42,8 @@ li{
 
 .location{
     width: 50px;
+    display: flex;
+    align-items: flex-start;
     float: left;
 }
 .experience{
@@ -52,5 +56,5 @@ li{
 }
 
 p{
-    text-align: left;
+    float: right;
 }
